@@ -11,6 +11,12 @@
 <head>
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width">
+    <!-- METAS COMPARTIR -->
+    <meta property="og:url" content="http://www.veracruzdigital.gob.mx" />
+    <meta property="og:title" content="Veracruz Digital" />
+    <meta property="og:description" content="Gobierno del EStado de Veracruz" />
+    <meta property="og:image" content="<?php bloginfo('template_url')?>/images/logo100X100.png" />
+    
 	<title><?php wp_title( '|', true, 'right' ); ?></title>
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
@@ -21,11 +27,11 @@
     
     <link rel="stylesheet" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
     
-    <script src="<?php bloginfo('template_url'); ?>/js/jquery.min.js"></script>
+    <script src="http://code.jquery.com/jquery-1.9.0.js"></script>
   	
     <!-- Bootstrap -->
-    <link href="<?php bloginfo('template_url'); ?>/css/bootstrap.css" rel="stylesheet">
-    <script src="<?php bloginfo('template_url'); ?>/js/bootstrap.min.js"></script>
+    <link href="<?php bloginfo('template_url'); ?>/css/bootstrap.min.3.3.4.css" rel="stylesheet">
+    <script src="<?php bloginfo('template_url'); ?>/js/bootstrap.min.3.3.4.js"></script>
 	<!-- End Bootstrap -->
 
     <!-- Responsive -->
@@ -40,6 +46,15 @@
     <link href="<?php bloginfo('template_url'); ?>/css/ekko-lightbox.css" rel="stylesheet">
     <script src="<?php bloginfo('template_url'); ?>/js/ekko-lightbox.js"></script>
     <!--End lightbox-->
+    
+    <!-- METAS COMPARTIR -->
+    <meta property="og:url" content="http://www.veracruzdigital.gob.mx" />
+    <meta property="og:title" content="Veracruz Digital" />
+    <meta property="og:description" content="Gobierno del EStado de Veracruz" />
+    <meta property="og:image" content="<?php bloginfo('template_url')?>/images/logo100X100.png" />
+
+    <!--Addthis-->
+    <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-528bc01961578d5f" async="async"></script>
 
     <!--footer-->
     <link href="<?php bloginfo('template_url'); ?>/css/footer.css" rel="stylesheet">
@@ -61,7 +76,7 @@
     <div class="clearfix"></div>
     <div class="bg-yellow">
         <div class="container-fluid">
-            <p>Por un uso responsable de internet y redes sociales</p>
+            <p>Por un uso responsable de <strong>internet y redes sociales</strong></p>
         </div>
     </div>
 </div>
